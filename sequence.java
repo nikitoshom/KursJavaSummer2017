@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Dev4 {
+public class sequence {
   public static void main (String[] args) throws Exception {
     System.out.println("Please enter sequence of numbers and use space for separation:");
     Scanner numbers = new Scanner(System.in);
@@ -13,9 +13,9 @@ public class Dev4 {
       }
     }
     if (n == chisla.length) {
-      System.out.println("ubivauzhay");
+      System.out.println("Decreasing sequence");
     } else {
-        System.out.println("neubivauzhay");
+        System.out.println("Nondecreasing sequence");
       }
   }
 }
