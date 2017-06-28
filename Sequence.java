@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Sequence {
-  public static void main (String[] args) throws Exception {
+  public static void main (String[] args) {
     System.out.println("Please enter sequence of numbers and use space for separation:");
     Scanner numbers = new Scanner(System.in);
     String str = numbers.nextLine();
