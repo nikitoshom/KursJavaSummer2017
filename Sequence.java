@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sequence {
+public class Sequence {
   public static void main (String[] args) throws Exception {
     System.out.println("Please enter sequence of numbers and use space for separation:");
     Scanner numbers = new Scanner(System.in);
