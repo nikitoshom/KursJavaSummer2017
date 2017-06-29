@@ -4,8 +4,8 @@ public class OutputNumbers {
       if (i % 3 == 0) {
         System.out.println("3*" + i/3);
       } else {
-	  System.out.println(i);			
-	}
+	System.out.println(i);			
+      }
     }
   }
 }
